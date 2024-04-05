@@ -1,13 +1,13 @@
 // For...
 
-/*for (let i = 1; i <= 10; i++){
+for (let i = 1; i <= 10; i++){
     console.log("Hellow World "+ i);
     
 }
 
 // While
 
-let i = 0;
+/*let i = 0;
 
  while (i <= 10 ){
     console.log("Hello world" + i  ); 
@@ -16,7 +16,7 @@ let i = 0;
 
  // Do... while
 
- let i = 1;
+ /*let i = 1;
 
  do {
     console.log("Hello World " + i);
@@ -25,4 +25,4 @@ let i = 0;
 
 
 
- //Infiniti Loop
+*/ //Infiniti Loop

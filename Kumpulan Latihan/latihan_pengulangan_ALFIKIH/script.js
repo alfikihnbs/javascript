@@ -12,7 +12,7 @@ let i = 1;
  }*/
 
 
- /*
+ 
  // LATIHAN 2
 
  for (let a = 1; a <= 100; a++)
@@ -20,9 +20,9 @@ let i = 1;
        console.log(a + " adalah bilangan yang habis di bagi 3 ")
    }else {
    console.log(a+ "")
-   }*/
+   }
 
-
+/*
 // LATIHAN 3
 
    let i = 50;
@@ -34,4 +34,4 @@ let i = 1;
       console.log(i+ ""); 
       i++;
    }
-   
+   */

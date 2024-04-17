@@ -18,7 +18,7 @@ const segitiga = function(alas, tinggi){
 let lanjut
 
 do {
-console.log("-- APLIKASI KALKULATOR SEDERHANA --")
+console.log("-- MENCARI LUAS --")
 console.log(" Silahkan pilih menu dibawah : ")
 console.log("===============================================")
 console.log(" 1. Persegi ")

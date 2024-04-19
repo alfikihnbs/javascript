@@ -87,7 +87,41 @@ console.log(word)
 const siswa = ["Adeh", "Alfikih", "Miftah", "Ratna", "SITI.N"]
 
 //slice = akan menghasilkan array baru
-const siswa2 = siswa.slice(2, 5);
+const siswa2 = siswa.slice(2, 4);
 console.log(siswa2)
 
-//splice = 
+//splice = menyisipkan elemen di index tertentu
+// splice(idxAwal, mauDihapusBerapa, elemen, elemen2, ...)
+siswa.splice(2, 0, "yudha", "jabbar", "dani");
+console.log(siswa);
+
+// foreach = sama kaya perulangan "for"
+const nilai = [70, 75, 82, 65, 58];
+
+nilai.forEach(function (e, i) {
+    console.log("index ke-" + i + "=" + e);
+});
+
+// sort mengurutkan array
+console.log(nilai.sort())
+
+// map
+const dikaliDua = nilai.map(function (e) {
+    return e * 2
+});
+console.log(dikaliDua)
+
+// filter & find
+const bilanganBulat = [2, 3, 1, 7, 6, 9, 11, 8];
+
+const bilBul = bilanganBulat.filter(function (e) {
+    return e > 5;
+})
+const bilBul2 = bilanganBulat.find(function (e) {
+    return e > 5;
+})
+
+console.log(bilBul);
+console.log(bilBul2);
+
+
